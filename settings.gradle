@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+//rootProject.name = "tvservice-sdk"
+//include ':app'
+//
+//include ':lib'
+//project(":lib").name = "tvservice-library"
+
+include ':app'
+project(":app").name = "tvservice-sdk"
